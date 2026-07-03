@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { auth } from "../../firebase";
+import { auth, hasFirebaseConfig } from "../../firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { Lock, Mail, Eye, EyeOff, Shield, ArrowLeft } from "lucide-react";
@@ -14,6 +14,11 @@ const AdminLogin = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    if (!hasFirebaseConfig || !auth) {
+      setError("Firebase belum diisi, jadi login admin belum aktif.");
+      return;
+    }
+
     setError("");
     setIsLoading(true);
 

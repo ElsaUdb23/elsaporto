@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { db } from "../../firebase";
+import { db, hasFirebaseConfig } from "../../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import {
@@ -20,6 +20,13 @@ const AdminDashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    if (!hasFirebaseConfig || !db) {
+      setProjectCount(0);
+      setAchievementCount(0);
+      setSkillCount(0);
+      return;
+    }
+
     const fetchCounts = async () => {
       try {
         const [projectSnap, achievementSnap, skillSnap] = await Promise.all([

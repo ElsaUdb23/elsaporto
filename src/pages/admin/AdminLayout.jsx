@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { auth } from "../../firebase";
+import { auth, hasFirebaseConfig } from "../../firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { useNavigate, useLocation, Outlet } from "react-router-dom";
 import {
@@ -50,6 +50,11 @@ const AdminLayout = () => {
   const location = useLocation();
 
   useEffect(() => {
+    if (!hasFirebaseConfig || !auth) {
+      setIsLoading(false);
+      return;
+    }
+
     const unsub = onAuthStateChanged(auth, (u) => {
       if (!u) navigate("/admin");
       else setUser(u);
@@ -64,6 +69,19 @@ const AdminLayout = () => {
   };
 
   const isActive = (path) => location.pathname === path;
+
+  if (!hasFirebaseConfig || !auth) {
+    return (
+      <div className="fixed inset-0 bg-stone-100 flex items-center justify-center p-6 text-center">
+        <div className="max-w-md bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
+          <h1 className="text-lg font-semibold text-stone-900 mb-2">Admin belum aktif</h1>
+          <p className="text-sm text-stone-600 leading-relaxed">
+            Tampilan publik sudah siap untuk deploy. Panel admin baru bisa dipakai kalau Firebase environment variables diisi.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (
