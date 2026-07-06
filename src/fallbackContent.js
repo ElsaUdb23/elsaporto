@@ -12,7 +12,7 @@ export const DEFAULT_ABOUT = {
     "Saya adalah mahasiswa angkatan 2023. Sebagai seorang pengembang perangkat lunak yang antusias, saya memiliki fokus utama pada pengembangan frontend dengan pengalaman menggunakan React serta pemahaman berbagai teknologi web. Selain itu, saya juga memiliki ketertarikan dan pengalaman dalam desain UI/UX, dengan tujuan menciptakan antarmuka yang fungsional sekaligus menarik secara visual.",
   education: [
     {
-      institution: "Universitas Teknologi Digital Indonesia",
+      institution: "Universitas Duta Bangsa",
       degree: "Teknologi Komputer",
       period: "2023 - Present",
       location: "Yogyakarta, Indonesia",
@@ -99,7 +99,7 @@ export const DEFAULT_SKILLS_PAGE = {
       id: "t1",
       period: "2023",
       role: "Mahasiswa Teknologi Komputer",
-      company: "Universitas Teknologi Digital Indonesia",
+      company: "Universitas Duta Bangsa",
       description: "Mulai fokus pada pengembangan web dan logika pemrograman dasar.",
     },
     {
