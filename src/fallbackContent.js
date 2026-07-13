@@ -9,7 +9,7 @@ export const DEFAULT_PROFILE = {
 
 export const DEFAULT_ABOUT = {
   bio:
-    "Saya seorang mahasiswa angkatan 2023 di Universitas Duta Bangsa Surakarta sekaligus pengembang perangkat lunak yang antusias, dengan fokus utama pada pengembangan frontend. Saya terbiasa membangun antarmuka menggunakan React dan terus memperdalam pemahaman saya terhadap berbagai teknologi web. Selain itu, ketertarikan saya pada desain UI/UX mendorong saya untuk menciptakan tampilan yang tidak hanya fungsional, tetapi juga menarik secara visual.
+    "Saya seorang mahasiswa angkatan 2023 di Universitas Duta Bangsa Surakarta sekaligus pengembang perangkat lunak yang antusias, dengan fokus utama pada pengembangan frontend. Saya terbiasa membangun antarmuka menggunakan React dan terus memperdalam pemahaman saya terhadap berbagai teknologi web. Selain itu, ketertarikan saya pada desain UI/UX mendorong saya untuk menciptakan tampilan yang tidak hanya fungsional,tetapi juga menarik secara visual
 .",
   education: [
     {
