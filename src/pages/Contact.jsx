@@ -192,8 +192,8 @@ const Contact = () => {
 
       {/* Footer */}
       <div className="mt-10 text-center text-gray-500 text-xs pb-6">
-        <p>COPYRIGHT © 2025</p>
-        <p>As'ad Mahmud Akram. All rights reserved.</p>
+        <p>2026</p>
+        <p>Elsa. All rights reserved.</p>
       </div>
     </div>
   );
