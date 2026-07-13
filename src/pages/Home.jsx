@@ -81,7 +81,7 @@ const Home = () => {
   const workType = homeData?.workType ?? "Onsite";
   const bio =
     homeData?.bio ??
-    "Saya adalah mahasiswa angkatan 2023. Sebagai seorang pengembang perangkat lunak yang antusias, saya memiliki fokus utama pada pengembangan frontend dengan pengalaman menggunakan React serta pemahaman berbagai teknologi web. Selain itu, saya juga memiliki ketertarikan dan pengalaman dalam desain UI/UX, dengan tujuan menciptakan antarmuka yang fungsional sekaligus menarik secara visual.";
+    "Saya seorang mahasiswa angkatan 2023 di Universitas Duta Bangsa Surakarta sekaligus pengembang perangkat lunak yang antusias, dengan fokus utama pada pengembangan frontend. Saya terbiasa membangun antarmuka menggunakan React dan terus memperdalam pemahaman saya terhadap berbagai teknologi web. Selain itu, ketertarikan saya pada desain UI/UX mendorong saya untuk menciptakan tampilan yang tidak hanya fungsional, tetapi juga menarik secara visual";
   const resumeUrl = homeData?.resumeUrl ?? "/src/assets/";
   const serviceText =
     homeData?.serviceText ??
