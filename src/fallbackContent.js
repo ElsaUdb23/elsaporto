@@ -1,7 +1,7 @@
 export const DEFAULT_PROFILE = {
   name: "Elsa Oktawiyani",
   title: "Fullstack Developer",
-  username: "@elsa oktaw",
+  username: "@elsaoktaw",
   footerName: "Elsa",
   footerYear: "2026",
   profileImage: "/assets/profile-elsa.png",
