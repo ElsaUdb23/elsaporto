@@ -12,8 +12,8 @@ export const DEFAULT_ABOUT = {
     "Saya adalah mahasiswa angkatan 2023. Sebagai seorang pengembang perangkat lunak yang antusias, saya memiliki fokus utama pada pengembangan frontend dengan pengalaman menggunakan React serta pemahaman berbagai teknologi web. Selain itu, saya juga memiliki ketertarikan dan pengalaman dalam desain UI/UX, dengan tujuan menciptakan antarmuka yang fungsional sekaligus menarik secara visual.",
   education: [
     {
-      institution: "Universitas Duta Bangsa",
-      degree: "Fakultas Komputer",
+      institution: "Universitas Duta Bangsa Surakarta",
+      degree: "Fakultas Ilmu Komputer",
       period: "2023 - Present",
       location: "Surakarta, Indonesia",
       logo: "",
@@ -36,7 +36,7 @@ export const DEFAULT_ABOUT = {
       mode: "Remote",
       logo: "",
       description:
-        "Fokus membangun website portfolio, landing page, dan dashboard yang responsif.",
+        "Fokus membangun website portofolio, landing page, dan dashboard yang responsif.",
       responsibilities: [
         "Membuat komponen reusable untuk mempercepat pengembangan.",
         "Menjaga konsistensi visual pada seluruh halaman.",
@@ -98,8 +98,8 @@ export const DEFAULT_SKILLS_PAGE = {
     {
       id: "t1",
       period: "2023",
-      role: "Mahasiswa Fakultas Komputer",
-      company: "Universitas Duta Bangsa",
+      role: "Mahasiswa Fakultas Ilmu Komputer",
+      company: "Universitas Duta Bangsa Surakarta",
       description: "Mulai fokus pada pengembangan web dan logika pemrograman dasar.",
     },
     {
@@ -107,7 +107,7 @@ export const DEFAULT_SKILLS_PAGE = {
       period: "2024",
       role: "Frontend Developer",
       company: "Personal Projects",
-      description: "Membangun website portfolio dan beberapa tampilan admin berbasis React.",
+      description: "Membangun website portofolio dan beberapa tampilan admin berbasis React.",
     },
   ],
 };
