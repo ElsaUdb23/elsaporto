@@ -136,9 +136,9 @@ export const DEFAULT_HOME_SKILLS = [
 export const DEFAULT_PROJECTS = [
   {
     id: "p1",
-    title: "Portfolio Website",
+    title: "Project Showcase",
     description:
-      "Website portofolio responsif dengan tampilan modern, navigasi bersih, dan halaman profil yang informatif.",
+      "Galeri project dengan kartu interaktif, detail modal, dan dukungan tampilan mobile yang rapi.",
     category: "Web Development",
     tech: ["React", "Vite", "Tailwind CSS"],
     img: "/projects/projects-1.png",
@@ -156,9 +156,9 @@ export const DEFAULT_PROJECTS = [
   },
   {
     id: "p3",
-    title: "Project Showcase",
+    title: "Portfolio Website",
     description:
-      "Galeri project dengan kartu interaktif, detail modal, dan dukungan tampilan mobile yang rapi.",
+      "Website portofolio responsif dengan tampilan modern, navigasi bersih, dan halaman profil yang informatif.",
     category: "Web Development",
     tech: ["React", "JavaScript", "CSS"],
     img: "/projects/projects-3.png",
