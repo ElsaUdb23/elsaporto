@@ -1,7 +1,7 @@
 export const DEFAULT_PROFILE = {
-  name: "Elsa",
+  name: "Elsa Oktawiyani",
   title: "Fullstack Developer",
-  username: "@elsa",
+  username: "@oktaw",
   footerName: "Elsa",
   footerYear: "2026",
   profileImage: "/assets/profile-elsa.png",
@@ -13,9 +13,9 @@ export const DEFAULT_ABOUT = {
   education: [
     {
       institution: "Universitas Duta Bangsa",
-      degree: "Teknologi Komputer",
+      degree: "Fakultas Komputer",
       period: "2023 - Present",
-      location: "Yogyakarta, Indonesia",
+      location: "Surakarta, Indonesia",
       logo: "",
       responsibilities: [
         "Mempelajari dasar pengembangan perangkat lunak dan web modern.",
@@ -98,7 +98,7 @@ export const DEFAULT_SKILLS_PAGE = {
     {
       id: "t1",
       period: "2023",
-      role: "Mahasiswa Teknologi Komputer",
+      role: "Mahasiswa Fakultas Komputer",
       company: "Universitas Duta Bangsa",
       description: "Mulai fokus pada pengembangan web dan logika pemrograman dasar.",
     },
